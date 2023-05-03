@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font-family, "Roboto Mono", monospace;
+}
+
+.titulo {
+  font-family: font-family, "Merriweather", serif;
+  font-size: 200%;
+}
+
+h2 {
+  font-family: font-family, "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: pink;
+}
+body nav {
+  border: 4px solid rgb(227, 69, 198);
+  box-shadow: inset 0 0 5px black;
+}
+body nav li {
+  font-size: 20px;
+}
+body nav li a:hover {
+  color: rgb(227, 69, 198) !important;
+}
+body nav h1 {
+  font-size: 25px;
+}
+body .slider {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+body .slider ul {
+  display: flex;
+  -webkit-animation: cambio 20s infinite alternate linear;
+          animation: cambio 20s infinite alternate linear;
+  width: 400%;
+  height: 600px;
+}
+body .slider li {
+  width: 100%;
+  list-style: none;
+}
+body .slider img {
+  width: 100%;
+  height: 100%;
+}
+@-webkit-keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+body .flex-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body .flex-container1 .oferta1 {
+  width: 30%;
+  margin: 10px;
+  border: dashed rgb(227, 69, 198);
+}
+body .flex-container1 .oferta2 {
+  width: 30%;
+  margin: 10px;
+  border: dashed rgb(227, 69, 198);
+}
+body .flex-container1 .oferta3 {
+  width: 30%;
+  margin: 10px;
+  border: dashed rgb(227, 69, 198);
+}
+body .flex-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body .flex-container2 .vendido1 {
+  width: 30%;
+  margin: 10px;
+  border: dashed rgb(227, 69, 198);
+}
+body .flex-container2 .vendido2 {
+  width: 30%;
+  margin: 10px;
+  border: dashed rgb(227, 69, 198);
+}
+body .flex-container2 .vendido3 {
+  width: 30%;
+  margin: 10px;
+  border: dashed rgb(227, 69, 198);
+}
+body .ofertas1 {
+  background-color: white;
+  font-size: 40px;
+  border: 3px dashed;
+  margin-bottom: 70px;
+  width: 70%;
+}
+body .ofertas2 {
+  color: red;
+  margin-top: 20px;
+  background-color: black;
+  margin-bottom: 70px;
+  width: 30%;
+  border: 3px dashed pink;
+  box-shadow: inset 0 0 9px rgb(227, 69, 198);
+}
+body main div img {
+  width: 25%;
+  height: 300px;
+}
+body footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border: 4px dashed pink;
+  border-bottom: none;
+}
+body footer .location {
+  display: flex;
+  flex-direction: column;
+  color: pink;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+body footer .location .map {
+  height: 200px;
+  width: 150%;
+}
+body footer .location .fa-solid {
+  margin-left: 80%;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+body footer .horarios {
+  display: flex;
+  flex-direction: column;
+  color: pink;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+body footer .horarios .fa-regular {
+  margin-left: 50%;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+body footer .horarios .horarios-p {
+  font-size: 15px;
+  margin-left: 100px;
+}
+body footer .redes {
+  color: pink;
+  margin-top: 10%;
+  margin-right: 5%;
+}
+body footer .redes .fa-brands {
+  font-size: 30px;
+  letter-spacing: 8px;
+  color: pink;
+  background-color: black;
+  background-size: cover;
+}
+body footer .redes .redes-p {
+  font-size: 15px;
+}
+body footer .redes .fa-brands:hover {
+  background-color: pink;
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  body .flex-container1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  body .flex-container1 .oferta1 {
+    width: 80%;
+  }
+  body .flex-container1 .oferta2 {
+    width: 80%;
+  }
+  body .flex-container1 .oferta3 {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body .flex-container2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  body .flex-container2 .vendido1 {
+    width: 80%;
+  }
+  body .flex-container2 .vendido2 {
+    width: 80%;
+  }
+  body .flex-container2 .vendido3 {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body .location {
+    width: 50%;
+  }
+}/*# sourceMappingURL=inicio.css.map */
