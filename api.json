@@ -1,0 +1,37 @@
+[{
+        "precio": 2500,
+        "id": 1,
+        "title": "seda color violeta",
+        "thumbnailUrl": "./Multimedia/Seda1.jpg"
+    },
+    {
+        "precio": 3000,
+        "id": 2,
+        "title": "seda color azul",
+        "thumbnailUrl": "./Multimedia/Seda3.jpg"
+    },
+    {
+        "precio": 2800,
+        "id": 3,
+        "title": "Lino multicolor",
+        "thumbnailUrl": "./Multimedia/textile-2072568_1920.jpg"
+    },
+    {
+        "precio": 1200,
+        "id": 4,
+        "title": "lino vintage",
+        "thumbnailUrl": "./Multimedia/lo mas vendido.jpg"
+    },
+    {
+        "precio": 1100,
+        "id": 5,
+        "title": "poliester wild colores oscuros",
+        "thumbnailUrl": "./Multimedia/lo mas vendido 1.png"
+    },
+    {
+        "precio": 1000,
+        "id": 6,
+        "title": "poliester wild colores claros",
+        "thumbnailUrl": "./Multimedia/lo mas vendido 2.jpg"
+    }
+]

@@ -8,7 +8,8 @@
     <meta name="copyright" content="Estudiante de Coder">
     <meta name="author" content="Valentin Martinez">
     <meta name="audience" content="all">
-    <meta name="description" content="Merceria Terciopelo, aqui encontras todo lo que necesites para empezar a hilar tu nuevo proyecto">
+    <meta name="description"
+        content="Merceria Terciopelo, aqui encontras todo lo que necesites para empezar a hilar tu nuevo proyecto">
     <meta name="description" content="todo tipo de sedas, articulos textiles y mas">
     <meta name="description" content="todo lo que necesites de una merceria lo podras encontrar aqui">
     <meta name="description" content="mira nuestras ofertas y fijate que es lo que mas compran nuestros clientes">
@@ -18,14 +19,20 @@
     <title>Merceria Terciopelo</title>
 
     <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.min.css">
     <script src="./bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
     <script src="./bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
-    
-    
+
+
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,7 +44,7 @@
     <link rel="stylesheet" href="./inicio.css">
 
     <!-- JS -->
-    <script src="main.js"></script>
+
     <script src="https://kit.fontawesome.com/db33d883d4.js" crossorigin="anonymous"></script>
 
 </head>
@@ -87,7 +94,8 @@
                 </li>
 
                 <li>
-                    <img src="./Multimedia/Logo Merceria Terciopelo 2.jpeg" alt="imagen de logo del local con informacion">
+                    <img src="./Multimedia/Logo Merceria Terciopelo 2.jpeg"
+                        alt="imagen de logo del local con informacion">
                 </li>
 
                 <li>
@@ -106,15 +114,16 @@
             <center>
                 <h2 class="ofertas1">Ofertas del mes</h2>
             </center>
-            
+
             <div class="flex-container1">
                 <img src="./Multimedia/Seda1.jpg" alt="imagen seda color violeta" role="button" class="oferta1">
                 <img src="./Multimedia/Seda3.jpg" alt="iamgen seda color azul" role="button" class="oferta2">
-                <img src="./Multimedia/textile-2072568_1920.jpg" alt="imagen seda color violeta y dorado" role="button" class="oferta3">
+                <img src="./Multimedia/textile-2072568_1920.jpg" alt="imagen seda color violeta y dorado" role="button"
+                    class="oferta3">
             </div>
-            
+
             <center>
-                <h4 class="ofertas2">!!Telas a muy buen precio!!</h4>
+                <h4 class="ofertas2" id="oferjs">!!Telas a muy buen precio!!</h4>
             </center>
         </div>
 
@@ -123,16 +132,87 @@
                 <h2 class="ofertas1">Lo mas vendido</h2>
             </center>
             <div class="flex-container2">
-                <img src="./Multimedia/lo mas vendido.jpg" alt="imagen de lino en blanco y negro" role="button" class="vendido1">
-                <img src="./Multimedia/lo mas vendido 1.png" alt="imagen de lino de varios colores" role="button" class="vendido2">
-                <img src="./Multimedia/lo mas vendido 2.jpg" alt="imagen lino de varios colores mas" role="button" class="vendido3">
+                <img src="./Multimedia/lo mas vendido.jpg" alt="imagen de lino en blanco y negro" role="button"
+                    class="vendido1">
+                <img src="./Multimedia/lo mas vendido 1.png" alt="imagen de lino de varios colores" role="button"
+                    class="vendido2">
+                <img src="./Multimedia/lo mas vendido 2.jpg" alt="imagen lino de varios colores mas" role="button"
+                    class="vendido3">
             </div>
-            
+
             <center>
                 <h4 class="ofertas2">Lo que mas le gusta nuestros clientes</h4>
             </center>
         </div>
     </main>
+
+    <div class="container">
+        <center>
+            <h2 class="ofertas1">Algo que quieras llevarte?</h2>
+        </center>
+        <hr>
+
+    <template id="template-card">
+        <div class="col-12 mb-2 col-md-4">
+            <div class="card">
+                <img src="" alt="" class="car-img-top">
+                <div class="card-body">
+                    <h5>Titulo</h5>
+                    <p id="precioscards">precio</p>
+                    <button class="btn btn-dark">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Item</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Acción</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody id="items"></tbody>
+        <tfoot>
+            <tr id="footer">
+                <th scope="row" colspan="5">todavia nada? seguro?</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="row" id="cards"></div>
+</div>
+
+<template id="template-footer">
+    <th scope="row" colspan="2">Total productos</th>
+    <td>10</td>
+    <td>
+        <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+            vaciar todo
+        </button>
+    </td>
+    <td class="font-weight-bold">$ <span>5000</span></td>
+</template>
+
+<template id="template-carrito">
+    <tr>
+        <th scope="row">id</th>
+        <td>Café</td>
+        <td>1</td>
+        <td>
+            <button class="btn btn-info btn-sm">
+                +
+            </button>
+            <button class="btn btn-danger btn-sm">
+                -
+            </button>
+        </td>
+        <td>$ <span>500</span></td>
+    </tr>
+</template>
 
     <footer class="footer">
         <div class="location">
@@ -158,7 +238,7 @@
 
     </footer>
 
-
+    <script src="main.js"></script>
 </body>
 
 </html>
